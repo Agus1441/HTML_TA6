@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TA6</title>
+    </head>
+    <body>
+        <h1>Formulario</h1>
+
+        <form>
+            <label for="editor">Elige tu sabor de elado favorito:</label>
+            <input list="sabores" name="sabor" id="sabor" required>
+            <datalist id="sabores">
+                <option value="Chocolate"></option>
+                <option value="Vainilla"></option>
+                <option value="Menta"></option>
+                <option value="Limon"></option>
+            </datalist>
+            <p></p>
+            <label>¿Cuanto te gusta el helado?(5 = mucho, 1 = nada)</label><br>
+            <input type="radio" id="5" name="numero" value="5" required>
+            <label for="5">5</label><br>
+            <input type="radio" id="4" name="numero" value="4" required>
+            <label for="4">4</label><br>
+            <input type="radio" id="3" name="numero" value="3" required>
+            <label for="3">3</label><br>
+            <input type="radio" id="2" name="numero" value="2" required>
+            <label for="2">2</label><br>
+            <input type="radio" id="1" name="numero" value="1" required>
+            <label for="1">1</label><br>
+            <p></p>
+            <input type="submit">
+            <input type="reset">
+            <p></p>
+
+        </form>
+    </body>
+</html>
